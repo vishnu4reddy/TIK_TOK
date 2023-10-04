@@ -54,10 +54,11 @@ def test_extract_captcha_text(page: Page):
 
     page.locator("#captcha").fill(captcha_text)
     time.sleep(4)
-    # page.locator("button[type='submit']").click()
+    page.locator("button[type='submit']").click()
     # page.locator("//form[2]").click()
     # time.sleep(30)
-    # page.locator("//span[normalize-space()='Text xxxxxxxx79']").click()
+    # page.locator("//span[normalize-
+    # space()='Text xxxxxxxx79']").click()
     # page.locator("//input[@id='code']").click()
     # time.sleep(15)
     # page.locator("button[type='submit']").click()
