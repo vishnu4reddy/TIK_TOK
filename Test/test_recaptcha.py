@@ -1,6 +1,6 @@
 from playwright.sync_api import Page
 from PIL import Image
-from Data.data_recaptcha import Domine_name, user_name, password
+from Credentials.data_recaptcha import Domine_name, user_name, password
 import pytesseract
 import base64
 import cv2
